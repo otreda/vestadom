@@ -1,0 +1,138 @@
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+  font-family: 'Open Sans';
+}
+
+html {}
+
+body {}
+
+.sidebar {
+  background: #2C363D;
+  width: 350px;
+  height: 100%;
+  &_content {
+    padding: 40px 50px;
+  }
+}
+
+.logo {
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #6A7576;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.contacts {
+  padding: 33px 0 32px 0;
+  &_phone {
+    font-family: 'Panton';
+    font-size: 24px;
+    line-height: 35px;
+    color: #fff;
+    display: block;
+  }
+  &_email {
+    font-family: 'Open Sans';
+    font-size: 13px;
+    line-height: 35px;
+    color: #afbbbd;
+    display: block;
+  }
+}
+
+.short-line {
+  height: 2px;
+  background: #e20714;
+  width: 50px;
+}
+
+.unstyled {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu {
+  font-family: 'Open Sans Semibold';
+  font-size: 15px;
+  list-style: none;
+  margin: 0;
+  padding: 30px 0 30px 0;
+  border-bottom: 1px solid #6a7576;
+
+  &_item {
+    margin-bottom: 20px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &_href {
+    color: #fff;
+    text-decoration: none;
+    transition: color 300ms;
+    line-height: 20px;
+    &__active,
+    &:hover{
+      color: #ffcb68;
+    }
+  }
+}
+
+.sub-menu {
+  font-family: 'Open Sans Semibold';
+  font-size: 0;
+  list-style: none;
+  margin: 0;
+  padding: 40px 0;
+  border-bottom: 1px solid #6a7576;
+  &_item {
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 18px;
+    &:last-child {
+      margin-bottom: 0
+    }
+  }
+  &_href {
+    font-size: 13px;
+    line-height: 18px;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.contact-actions {
+  list-style: none;
+  padding: 0;
+  margin: 30px 0 0 0;
+  &_item {
+    position: relative;
+    margin-bottom: 15px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &_href {
+    font-family: 'Open Sans';
+    color: #afbbbd;
+    font-size: 13px;
+    line-height: 35px;
+    text-decoration: none;
+    padding: 0 0 0 50px;
+  }
+  &_icon {
+    position: absolute;
+    left: 0;
+    top: 5px;
+  }
+}
