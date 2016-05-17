@@ -1,0 +1,35 @@
+{
+  "name": "vestadom",
+  "version": "1.0.0",
+  "description": "vestadom",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:ivan-hilckov/vestadom.git"
+  },
+  "author": "Ivan Hilkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivan-hilckov/vestadom/issues"
+  },
+  "homepage": "https://github.com/ivan-hilckov/vestadom#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-connect": "^4.0.0",
+    "gulp-copy": "0.0.2",
+    "gulp-postcss": "^6.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-zip": "^3.2.0",
+    "postcss-nested": "^1.0.0",
+    "postcss-nesting": "^2.3.1",
+    "postcss-simple-vars": "^1.2.0",
+    "precss": "^1.4.0"
+  }
+}
