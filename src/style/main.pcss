@@ -1,18 +1,39 @@
-html,
-body {
+html, body {
   height: 100%;
-  min-height: 100%;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
 }
 
-html {}
+h1, p {
+  margin: 0;
+  padding: 0;
+}
 
-body {}
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+}
+
+.wrapper-sidebar {
+  width: 350px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.wrapper-content {
+  width: 100%;
+}
+
+.content {
+  position: relative;
+  padding: 0;
+  margin: 0 0 0 350px;
+}
 
 .sidebar {
   background: #2C363D;
-  width: 350px;
-  height: 100%;
+  min-height: 100%;
   &_content {
     padding: 40px 50px;
   }
@@ -29,18 +50,17 @@ body {}
   text-decoration: none;
 }
 
-
 .contacts {
   padding: 33px 0 32px 0;
   &_phone {
-    font-family: 'Panton';
+    font-family: 'Panton', sans-serif;
     font-size: 24px;
     line-height: 35px;
     color: #fff;
     display: block;
   }
   &_email {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     line-height: 35px;
     color: #afbbbd;
@@ -54,14 +74,8 @@ body {}
   width: 50px;
 }
 
-.unstyled {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
 .menu {
-  font-family: 'Open Sans Semibold';
+  font-family: 'Open Sans Semibold', sans-serif;
   font-size: 15px;
   list-style: none;
   margin: 0;
@@ -81,14 +95,14 @@ body {}
     transition: color 300ms;
     line-height: 20px;
     &__active,
-    &:hover{
+    &:hover {
       color: #ffcb68;
     }
   }
 }
 
 .sub-menu {
-  font-family: 'Open Sans Semibold';
+  font-family: 'Open Sans Semibold', sans-serif;
   font-size: 0;
   list-style: none;
   margin: 0;
@@ -123,7 +137,7 @@ body {}
     }
   }
   &_href {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     color: #afbbbd;
     font-size: 13px;
     line-height: 35px;
@@ -135,4 +149,109 @@ body {}
     left: 0;
     top: 5px;
   }
+}
+
+.section {
+  position: relative;
+  height: 100vh;
+  background: no-repeat center center;
+  background-size: cover;
+  &__one {
+    background-image: url('/img/section1.png');
+  }
+  &__two {
+    background-image: url('/img/section2.png');
+  }
+  &__three {
+    background-image: url('/img/section3.png');
+  }
+  &__four {
+    background-image: url('/img/section4.png');
+  }
+  &__five {
+    background-image: url('/img/section5.png');
+  }
+  &__six {
+    background-image: url('/img/section6.png');
+  }
+  &__seven {
+    background-image: url('/img/section.png');
+  }
+}
+
+.slogan {
+  font-family: 'Nexa', sans-serif;
+  position: absolute;
+  right: 106px;
+  bottom: 122px;
+  text-align: right;
+  font-size: 64px;
+  color: #fff;
+}
+
+.variants {
+  background: rgba(0, 0, 0, .5);
+  color: #fff;
+  &__top {
+    position: absolute;
+    right: 60px;
+    padding: 35px 70px 40px;
+  }
+  &__centred {
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    transform: translate(0, -50%);
+    padding: 70px 70px 100px;
+  }
+  &_list {
+    padding: 0;
+    margin: 50px 0 0 0;
+    list-style: none;
+    &-item {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+    }
+  }
+  &_title {
+    font-family: 'Panton', sans-serif;
+    font-size: 40px;
+    display: block;
+    &__small {
+      font-size: 30px;
+    }
+  }
+  &_line {
+    width: 40px;
+    height: 2px;
+    background: #fff;
+    margin: 30px 0 22px;
+  }
+  &_description {
+    font-family: 'Panton Semibold Italic', sans-serif;
+    font-size: 18px;
+    display: block;
+    margin: 0 0 20px;
+    &__small {
+      font-family: 'Panton Regular Italic', sans-serif;
+    }
+  }
+  &_link {
+    &__small {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+    }
+  }
+  &_love {
+    bottom: 20px;
+    left: 20px;
+    position: absolute;
+  }
+}
+
+.callback {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
 }
