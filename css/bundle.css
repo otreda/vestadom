@@ -381,43 +381,43 @@ textarea {
 
 @font-face {
   font-family: 'Nexa';
-  src: url('/fonts/nexascript-free-webfont.eot');
-  src: url('/fonts/nexascript-free-webfont.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/nexascript-free-webfont.woff2') format('woff2'),
-       url('/fonts/nexascript-free-webfont.woff') format('woff');
+  src: url('http://ivan-hilckov.github.io/vestadom/fonts/nexascript-free-webfont.eot');
+  src: url('http://ivan-hilckov.github.io/vestadom/fonts/nexascript-free-webfont.eot?#iefix') format('embedded-opentype'),
+       url('http://ivan-hilckov.github.io/vestadom/fonts/nexascript-free-webfont.woff2') format('woff2'),
+       url('http://ivan-hilckov.github.io/vestadom/fonts/nexascript-free-webfont.woff') format('woff');
 }
 @font-face {
   font-family: 'Panton';
-  src: url('/fonts/panton-regular-webfont.eot');
-  src: url('/fonts/panton-regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/panton-regular-webfont.woff2') format('woff2'),
-       url('/fonts/panton-regular-webfont.woff') format('woff');
+  src: url('http://ivan-hilckov.github.io/vestadom/fonts/panton-regular-webfont.eot');
+  src: url('http://ivan-hilckov.github.io/vestadom/fonts/panton-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('http://ivan-hilckov.github.io/vestadom/fonts/panton-regular-webfont.woff2') format('woff2'),
+       url('http://ivan-hilckov.github.io/vestadom/fonts/panton-regular-webfont.woff') format('woff');
 }
 @font-face {
   font-family: 'Panton Semibold Italic';
-  src: url('/fonts/panton-semibolditalic-webfont.eot');
-  src: url('/fonts/panton-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/panton-semibolditalic-webfont.woff2') format('woff2'),
-       url('/fonts/panton-semibolditalic-webfont.woff') format('woff');
+  src: url('http://ivan-hilckov.github.io/vestadom/fonts/panton-semibolditalic-webfont.eot');
+  src: url('http://ivan-hilckov.github.io/vestadom/fonts/panton-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('http://ivan-hilckov.github.io/vestadom/fonts/panton-semibolditalic-webfont.woff2') format('woff2'),
+       url('http://ivan-hilckov.github.io/vestadom/fonts/panton-semibolditalic-webfont.woff') format('woff');
 }
 @font-face {
   font-family: 'Open Sans';
-  src: url('/fonts/opensans-regular-webfont.eot');
-  src: url('/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/opensans-regular-webfont.woff2') format('woff2'),
-       url('/fonts/opensans-regular-webfont.woff') format('woff');
+  src: url('http://ivan-hilckov.github.io/vestadom/fonts/opensans-regular-webfont.eot');
+  src: url('http://ivan-hilckov.github.io/vestadom/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('http://ivan-hilckov.github.io/vestadom/fonts/opensans-regular-webfont.woff2') format('woff2'),
+       url('http://ivan-hilckov.github.io/vestadom/fonts/opensans-regular-webfont.woff') format('woff');
 }
 @font-face {
   font-family: 'Open Sans Semibold';
-  src: url('/fonts/opensans-semibold-webfont.eot');
-  src: url('/fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/opensans-semibold-webfont.woff2') format('woff2'),
-       url('/fonts/opensans-semibold-webfont.woff') format('woff');
+  src: url('http://ivan-hilckov.github.io/vestadom/fonts/opensans-semibold-webfont.eot');
+  src: url('http://ivan-hilckov.github.io/vestadom/fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('http://ivan-hilckov.github.io/vestadom/fonts/opensans-semibold-webfont.woff2') format('woff2'),
+       url('http://ivan-hilckov.github.io/vestadom/fonts/opensans-semibold-webfont.woff') format('woff');
 }
 @font-face {
   font-family: 'Panton Regular Italic';
-  src: url('/fonts/panton-regularitalic-webfont.woff2') format('woff2'),
-       url('/fonts/panton-regularitalic-webfont.woff') format('woff');
+  src: url('http://ivan-hilckov.github.io/vestadom/fonts/panton-regularitalic-webfont.woff2') format('woff2'),
+       url('http://ivan-hilckov.github.io/vestadom/fonts/panton-regularitalic-webfont.woff') format('woff');
 }
 
 html, body {
@@ -592,31 +592,31 @@ h1, p {
 }
 
 .section__one {
-  background-image: url('/img/section1.png');
+  background-image: url('http://ivan-hilckov.github.io/vestadom/img/section1.png');
 }
 
 .section__two {
-  background-image: url('/img/section2.png');
+  background-image: url('http://ivan-hilckov.github.io/vestadom/img/section2.png');
 }
 
 .section__three {
-  background-image: url('/img/section3.png');
+  background-image: url('http://ivan-hilckov.github.io/vestadom/img/section3.png');
 }
 
 .section__four {
-  background-image: url('/img/section4.png');
+  background-image: url('http://ivan-hilckov.github.io/vestadom/img/section4.png');
 }
 
 .section__five {
-  background-image: url('/img/section5.png');
+  background-image: url('http://ivan-hilckov.github.io/vestadom/img/section5.png');
 }
 
 .section__six {
-  background-image: url('/img/section6.png');
+  background-image: url('http://ivan-hilckov.github.io/vestadom/img/section6.png');
 }
 
 .section__seven {
-  background-image: url('/img/section.png');
+  background-image: url('http://ivan-hilckov.github.io/vestadom/img/section.png');
 }
 
 .slogan {
