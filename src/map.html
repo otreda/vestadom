@@ -121,56 +121,47 @@
               <img src="/svg/close.svg" class="search-form_close" alt="">
               <div class="search-form_flds-group">
                 <div class="search-form_fld">
-                  <select class="search-form_type select select__is-stick">
+                  <select class="form-control">
                     <option>ТИП НЕДВИЖИМОСТИ</option>
                   </select>
                 </div>
                 <div class="search-form_fld">
-                  <select class="search-form_subway select select__is-stick">
+                  <select class="form-control">
                     <option>МЕТРО</option>
                   </select>
                 </div>
                 <div class="search-form_fld">
-                  <input class="search-form_location input input__is-stick" type="text" placeholder="Улица, район, название или ID объекта" />
+                  <input type="text" placeholder="Улица, район, название или ID объекта" />
                 </div>
               </div>
               <div class="search-form_flds-group">
                 <div class="search-form_fld">
-                  <select class="search-form_room select">
+                  <select class="form-control">
                     <option>КОМНАТ</option>
                   </select>
                 </div>
                 <div class="search-form_fld">
-                  <label class="label" for="area_from">Площадь М2</label>
-                  <input class="search-form_area-from input" type="text" id="area_from" placeholder="От" />
-                  <input class="search-form_area-to input input__is-stick" type="text" id="area_to" placeholder="до" />
+                  <label for="area_from">Площадь М2</label>
+                  <input type="text" id="area_from" placeholder="От" />
+                  <input type="text" id="area_to" placeholder="до" />
                 </div>
                 <div class="search-form_fld">
-                  <label for="currency_from" class="label">
+                  <label for="currency_from">
                     Диапазон цен
-                    <span class="btn-currency">
-                      <img class="btn-currency_icon" src="/svg/rub-black.svg" alt="рубли" />
-                    </span>
-                    <span class="btn-currency btn-currency__active">
-                      <img class="btn-currency_icon" src="/svg/usd-white.svg" alt="доллары" />
-                    </span>
-                    <span class="btn-currency">
-                      <img class="btn-currency_icon" src="/svg/eur-black.svg" alt="eвро" />
-                    </span>
+                    <span class="search-form_currency"><img src="/svg/rub-black.svg" alt="рубли" /></span>
+                    <span class="search-form_currency search-form_currency__active"><img src="/svg/usd-black.svg" alt="доллары" /></span>
+                    <span class="search-form_currency"><img src="/svg/eur-black.svg" alt="eвро" /></span>
                   </label>
-                  <input class="search-form_currency-from input " type="text" id="currency_from" placeholder="От" />
-                  <input class="search-form_currency-to input input__is-stick" type="text" id="currency_to" placeholder="до" />
+                  <input type="text" id="currency_from" placeholder="От" />
+                  <input type="text" id="currency_to" placeholder="до" />
                 </div>
               </div>
             </div>
             <div class="search-form_actions">
-              <span class="search-form_action search-form_action__second">На карте</span>
-              <span class="search-form_action search-form_action__second">Схема метро</span>
-              <span class="search-form_action search-form_action__second">Районы</span>
-              <span class="search-form_action search-form_action__main">
-                <span class="search-form_action-text">Найти</span>
-                <img class="search-form_action-img" src="/svg/arrow-small.svg" alt="">
-              </span>
+              <span>На карте</span>
+              <span>Схема метро</span>
+              <span>Районы</span>
+              <span>Найти <img src="/svg/arrow-small.svg" alt=""></span>
             </div>
           </form>
         </div>

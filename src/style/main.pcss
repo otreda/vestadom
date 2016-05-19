@@ -137,17 +137,17 @@ h1, p {
     }
   }
   &_href {
+    display: block;
     font-family: 'Open Sans', sans-serif;
     color: #afbbbd;
     font-size: 13px;
     line-height: 35px;
     text-decoration: none;
-    padding: 0 0 0 50px;
   }
   &_icon {
-    position: absolute;
-    left: 0;
-    top: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 20px 0 0;
   }
 }
 
@@ -254,4 +254,202 @@ h1, p {
   position: fixed;
   bottom: 30px;
   right: 30px;
+}
+
+.search {
+  position: absolute;
+  top: 242px;
+}
+
+.search-btn {
+  cursor: pointer;
+  position: absolute;
+  background: #e20714;
+  top: 230px;
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  text-align: center;
+  &_icon {
+    padding: 18px 0 0 0;
+    display: inline-block;
+  }
+  &_text {
+    display: block;
+    font-family: 'Open Sans Semibold', sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+
+.search-type {
+  position: absolute;
+  background: #2c363d;
+  height: 70px;
+  width: 275px;
+  left: 70px;
+  top: 230px;
+  &_btn {
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Open Sans Semibold', sans-serif;
+    font-size: 13px;
+    line-height: 13px;
+    color: #889395;
+    text-transform: uppercase;
+    margin-top: 28px;
+    &__buy {
+      margin-left: 40px;
+      margin-right: 24px;
+    }
+    &__rent {
+      margin-left: 24px;
+    }
+    &__active {
+      padding:0 0 10px 0;
+      color: #fff;
+      border-bottom: 2px solid #e20714;
+    }
+  }
+}
+
+.search-form {
+  position: absolute;
+  background: #2c363d;
+  width: 710px;
+  height: 276px;
+  top: 290px;
+  &_inner-form {
+    padding: 30px 20px 36px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 9px 0 0 0;
+    background: #fff;
+    width: 700px;
+    height: 205px;
+    font-size: 0;
+  }
+  &_close {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+  }
+  &_fld {
+    display: inline-block;
+  }
+  &_type {
+    width: 176px;
+  }
+  &_subway {
+    width: 176px;
+  }
+  &_location {
+    width: 311px;
+  }
+  &_room {
+    width: 111px;
+    margin-right: 37px;
+  }
+  &_area-from {
+    width: 80px;
+  }
+  &_area-to {
+    width: 80px;
+    margin-right: 37px;
+  }
+  &_currency-from {
+    width: 158px;
+  }
+  &_currency-to {
+    width: 159px;
+  }
+  &_actions {
+    padding: 10px;
+    text-align: right;
+    height: 40px;
+    line-height: 40px;
+  }
+  &_action {
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #97a6b5;
+    &__second {
+      padding: 1px 10px;
+    }
+    &__main {
+      vertical-align: top;
+      border-left: 1px solid #6e767e;
+      padding: 0px 10px 0 30px;
+      margin: 0 0 0 20px;
+      color: #fff;
+      text-transform: uppercase;
+      font-family: 'Open Sans Bold';
+    }
+    &-img {
+      display: inline;
+      vertical-align: middle;
+    }
+  }
+
+}
+
+.select {
+  vertical-align: top;
+  display: inline-block;
+  height: 40px;
+  border: 1px solid #afbbbd;
+  background: url("/svg/open-select.svg") right 10px center no-repeat;
+  border-radius: 0;
+  font-family: 'Open Sans Semibold', sans-serif;
+  appearance: none;
+  font-size: 11px;
+  padding: 0 30px 0 15px;
+  box-sizing: border-box;
+  &__is-stick {
+    margin-left: -1px;
+  }
+}
+
+.input {
+  font-size: 13px;
+  vertical-align: top;
+  display: inline-block;
+  height: 40px;
+  border: 1px solid #afbbbd;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0 30px 0 15px;
+  box-sizing: border-box;
+  &__is-stick {
+    margin-left: -1px;
+  }
+}
+
+.label {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  color: #6d7882;
+  display: block;
+  margin: 25px 0 18px 0;
+}
+
+.btn-currency {
+  display: inline-block;
+  width:24px;
+  height:24px;
+  border:1px solid #afbbbd;
+  border-radius: 2px;
+  text-align: center;
+  vertical-align: top;
+  cursor: pointer;
+  &_icon {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  &__active {
+    border:1px solid #2c363d;
+    background: #2c363d;
+  }
 }
