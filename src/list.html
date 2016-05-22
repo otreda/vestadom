@@ -2,181 +2,569 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <meta http-equiv="x-ua-compatible" content="ie=edge" />
   <title>vestadom</title>
   <meta name="description" content="vestadom" />
   <meta name="format-detection" content="telephone=no" />
   <link rel="stylesheet" href="/css/bundle.css" />
+  <meta name="viewport" content="width=device-width" />
 </head>
 <body>
 
-<div class="wrapper">
-  <div class="wrapper-sidebar">
-    <div class="sidebar">
-      <div class="sidebar_content">
+  <div class="container">
+
+    <div class="header cf">
+      <div class="wrapper-logo">
         <div class="logo">
-          <a href="" class="logo_href">
-            <img src="/svg/logo.svg" alt="vestadom" />
-          </a>
+          <a href="#"><img src="/svg/logo.svg" alt=""></a>
         </div>
-        <div class="contacts">
-          <a href="tel://+7-495-580-95-55" class="link contacts_phone">+7 (495) 580-95-55</a>
-          <a href="mailto:info@vesta-dom.ru" class="link contacts_email">info@vesta-dom.ru</a>
-        </div>
-        <div class="short-line"></div>
-        <ul class="menu">
-          <li class="menu_item"><a href="/" class="menu_href">Городская</a></li>
-          <li class="menu_item"><a href="/" class="menu_href menu_href__active">Загородная</a></li>
-          <li class="menu_item"><a href="/" class="menu_href">Жилые комплексы</a></li>
-          <li class="menu_item"><a href="/" class="menu_href">Cпецпредложения</a></li>
-        </ul>
-        <ul class="sub-menu">
-          <li class="sub-menu_item"><a href="/" class="sub-menu_href">Собственникам</a></li>
-          <li class="sub-menu_item"><a href="/" class="sub-menu_href">Новости недвижимости</a></li>
-          <li class="sub-menu_item"><a href="/" class="sub-menu_href">Как купить</a></li>
-          <li class="sub-menu_item"><a href="/" class="sub-menu_href">Отзывы</a></li>
-          <li class="sub-menu_item"><a href="/" class="sub-menu_href">Компания</a></li>
-          <li class="sub-menu_item"><a href="/" class="sub-menu_href">Контакты</a></li>
-          <li class="sub-menu_item"><a href="/" class="sub-menu_href">Партнеры</a></li>
-          <li class="sub-menu_item"><a href="/" class="sub-menu_href">Личный кабинет</a></li>
-          <li class="sub-menu_item"><a href="/" class="sub-menu_href">Услуги</a></li>
-        </ul>
-        <ul class="contact-actions">
-          <li class="contact-actions_item">
-            <a class="contact-actions_href" href="/">
-              <img class="contact-actions_icon" src="/svg/mail.svg" alt="Напишите нам" />
-              <span class="contact-actions_text">Напишите нам</span>
-            </a>
+      </div>
+      <div class="wrapper-actions">
+        <ul class="actions">
+          <li class="actions-item actions-item-gamburger js-gamburger"></li>
+          <li class="actions-separator"></li>
+          <li class="actions-item">
+            <img src="/svg/mail.svg" alt="">
           </li>
-          <li class="contact-actions_item">
-            <a class="contact-actions_href" href="/">
-              <img class="contact-actions_icon" src="/svg/call.svg" alt="Напишите нам" />
-              <span class="contact-actions_text">Заказать обратный звонок</span>
-            </a>
+          <li class="actions-item">
+            <img src="/svg/call.svg" alt="">
           </li>
-          <li class="contact-actions_item">
-            <a class="contact-actions_href" href="/">
-              <img class="contact-actions_icon" src="/svg/favorite.svg" alt="Напишите нам" />
-              <span class="contact-actions_text">Избранные объекты</span>
-            </a>
+          <li class="actions-item">
+            <a href="#"><img src="/svg/favorite.svg" alt=""></a>
           </li>
-          <li class="contact-actions_item">
-            <a class="contact-actions_href" href="/">
-              <img class="contact-actions_icon" src="/svg/cabinet.svg" alt="Напишите нам" />
-              <span class="contact-actions_text">Личный кабинет</span>
-            </a>
+          <li class="actions-item">
+            <a href="#"><img src="/svg/cabinet.svg" alt=""></a>
           </li>
         </ul>
       </div>
     </div>
-  </div>
-  <div class="wrapper-content">
-    <div class="content">
-      <div class="section section__one">
-        <div class="variants variants__top">
-          <span class="variants_title">Москва-Сити</span>
-          <div class="variants_line"></div>
-          <span class="variants_description">Жилые комплексы, башня Федирация</span>
-          <a href="" class="variants_link"><img src="/svg/arrow.svg" alt=""></a>
-        </div>
-        <div class="slogan">
-          <p>Ваш комфорт — &nbsp;&nbsp;&nbsp;<br /> наша забота</p>
-        </div>
+
+    <div class="wrapper-form">
+      <div class="show-search-btn active">
+        <img class="show-search-btn-icon" src="/svg/search.svg" alt="Поиск" />
+        <span>Поиск</span>
       </div>
-      <div class="section section__two">
-        <div class="variants variants__centred">
-          <span class="variants_title variants_title__small">Москва-Сити</span>
-          <div class="variants_line"></div>
-          <span class="variants_description variants_description__small">Жилые комплексы, башня Федирация</span>
-          <a href="" class="variants_link variants_link__small"><img src="/svg/arrow.svg" alt=""></a>
-          <span class="variants_love"><img src="/svg/love.svg" alt=""></span>
+      <form action="/list.html" class="form">
+
+        <div class="wrapper-close-form">
+          <img src="/svg/close-form.svg" alt="" class="close-form" />
         </div>
-      </div>
-      <div class="section section__three">
-        <div class="variants variants__centred">
-          <span class="variants_title variants_title__small">Москва-Сити</span>
-          <div class="variants_line"></div>
-          <span class="variants_description variants_description__small">Жилые комплексы, башня Федирация</span>
-          <ul class="variants_list">
-            <li class="variants_list-item">— Квартиры от 57 до 220 м2 /li>
-             <li class="variants_list-item">— Уникальные ландшафтные решения/li>
-            <li class="variants_list-item">— Обширная парковая зона с собственным озером/li>
+
+        <select class="select select-type-sale">
+          <option>Продажа</option>
+        </select>
+
+        <select class="select select-type-building">
+          <option>Квартиры</option>
+        </select>
+
+        <select class="select select-station">
+          <option>Станция метро</option>
+        </select>
+
+        <input type="text" class="input input-search" placeholder="Улица, район, название или ID объекта" />
+
+        <select class="select select-room">
+          <option>Комнат</option>
+        </select>
+
+        <div class="input-group input-group-area">
+          <label class="label label-area" for="input-area-from">Площадь М2</label>
+          <input type="text" class="input input-area-from" id="input-area-from" placeholder="От" />
+          <input type="text" class="input input-area-to" placeholder="До" />
+        </div>
+
+        <div class="input-group input-group-price">
+          <label class="label label-price" for="input-price-from">
+            Диапазон цен
+            <ul class="choose-currency">
+              <li class="choose-currency-item choose-currency-item-rub"></li>
+              <li class="choose-currency-item choose-currency-item-eur active"></li>
+              <li class="choose-currency-item choose-currency-item-usd"></li>
+            </ul>
+          </label>
+          <input type="text" class="input input-price-from" id="input-price-from" placeholder="От" />
+          <input type="text" class="input input-price-to" placeholder="До" />
+        </div>
+
+        <div class="advanced-search">
+          <span class="advanced-search-icon">+</span>
+          <span class="advanced-search-text">расширенный поиск</span>
+        </div>
+
+      </form>
+    </div>
+
+    <div class="list cf js-content">
+
+      <div class="sidebar">
+        <div class="sidebar-content">
+          <div class="contacts">
+            <a href="tel://+7-495-580-95-55" class="link contacts_phone">+7 (495) 580-95-55</a>
+            <a href="mailto:info@vesta-dom.ru" class="link contacts_email">info@vesta-dom.ru</a>
+          </div>
+          <div class="short-line"></div>
+          <ul class="menu">
+            <li class="menu_item"><a href="/" class="menu_href">Городская</a></li>
+            <li class="menu_item"><a href="/" class="menu_href menu_href__active">Загородная</a></li>
+            <li class="menu_item"><a href="/" class="menu_href">Жилые комплексы</a></li>
+            <li class="menu_item"><a href="/" class="menu_href">Cпецпредложения</a></li>
           </ul>
-          <a href="" class="variants_link variants_link__small"><img src="/svg/arrow.svg" alt=""></a>
-          <span class="variants_love"><img src="/svg/love.svg" alt=""></span>
+          <ul class="sub-menu">
+            <li class="sub-menu_item"><a href="/" class="sub-menu_href">Собственникам</a></li>
+            <li class="sub-menu_item"><a href="/" class="sub-menu_href">Новости недвижимости</a></li>
+            <li class="sub-menu_item"><a href="/" class="sub-menu_href">Как купить</a></li>
+            <li class="sub-menu_item"><a href="/" class="sub-menu_href">Отзывы</a></li>
+            <li class="sub-menu_item"><a href="/" class="sub-menu_href">Компания</a></li>
+            <li class="sub-menu_item"><a href="/" class="sub-menu_href">Контакты</a></li>
+            <li class="sub-menu_item"><a href="/" class="sub-menu_href">Партнеры</a></li>
+            <li class="sub-menu_item"><a href="/" class="sub-menu_href">Личный кабинет</a></li>
+            <li class="sub-menu_item"><a href="/" class="sub-menu_href">Услуги</a></li>
+          </ul>
         </div>
       </div>
-      <div class="section section__four"></div>
-      <div class="section section__five"></div>
-      <div class="section section__six"></div>
-      <div class="section section__seven"></div>
-      <div class="search">
-        <div class="search-type">
-          <span class="search-type_btn search-type_btn__active search-type_btn__buy">купить</span>
-          <span class="search-type_btn search-type_btn__rent">арендовать</span>
+
+      <div class="content">
+        <div class="meta-bar">
+          <div class="meta-contacts">
+            <a href="tel://+7-495-580-95-55" class="link contacts_phone">+7 (495) 580-95-55</a>
+            <a href="mailto:info@vesta-dom.ru" class="link contacts_email">info@vesta-dom.ru</a>
+          </div>
+          <div class="meta-list">
+            <span class="meta-count">356 объектов</span>
+            <h1 class="meta-tile">Элитные квартиры</h1>
+            <p class="meta-select-order">
+              <span>СОРТИРОВАТЬ:</span>
+              <select class="select-order">
+                <option>Комнат</option>
+              </select>
+            </p>
+          </div>
+          <ul class="switcher">
+            <li class="switcher-item active">список</li>
+            <li class="switcher-item">карта</li>
+            <li class="switcher-item">схема метро</li>
+            <li class="switcher-item">районы</li>
+          </ul>
         </div>
-        <div class="search-form">
-          <form action="/">
-            <div class="search-form_inner-form">
-              <img src="/svg/close.svg" class="search-form_close" alt="">
-              <div class="search-form_flds-group">
-                <div class="search-form_fld">
-                  <select class="form-control">
-                    <option>ТИП НЕДВИЖИМОСТИ</option>
-                  </select>
-                </div>
-                <div class="search-form_fld">
-                  <select class="form-control">
-                    <option>МЕТРО</option>
-                  </select>
-                </div>
-                <div class="search-form_fld">
-                  <input type="text" placeholder="Улица, район, название или ID объекта" />
-                </div>
+        <div class=" cf">
+          <div class="objects">
+            <div class="object">
+              <div class="object-images-wrapper">
+                <img class="object-images" src="/img/object.png" alt="" />
               </div>
-              <div class="search-form_flds-group">
-                <div class="search-form_fld">
-                  <select class="form-control">
-                    <option>КОМНАТ</option>
-                  </select>
-                </div>
-                <div class="search-form_fld">
-                  <label for="area_from">Площадь М2</label>
-                  <input type="text" id="area_from" placeholder="От" />
-                  <input type="text" id="area_to" placeholder="до" />
-                </div>
-                <div class="search-form_fld">
-                  <label for="currency_from">
-                    Диапазон цен
-                    <span class="search-form_currency"><img src="/svg/rub-black.svg" alt="рубли" /></span>
-                    <span class="search-form_currency search-form_currency__active"><img src="/svg/usd-black.svg" alt="доллары" /></span>
-                    <span class="search-form_currency"><img src="/svg/eur-black.svg" alt="eвро" /></span>
-                  </label>
-                  <input type="text" id="currency_from" placeholder="От" />
-                  <input type="text" id="currency_to" placeholder="до" />
+              <h3 class="object-title">Квартира<br /> на Еропкинском</h3>
+              <div class="object-description">
+                <p>Жилой комплекс «Еропинские дали», другое описание если нужно</p>
+              </div>
+              <div class="object-icons">
+                <img src="/img/object-icon-1.png" alt="" />
+                <img src="/img/object-icon-2.png" alt="" />
+                <img src="/img/object-icon-3.png" alt="" />
+                <img src="/img/object-icon-4.png" alt="" />
+                <img src="/img/object-icon-5.png" alt="" />
+              </div>
+              <div class="object-meta">
+                <p class="object-meta-text">
+                  3 комнаты, 128 м²
+                  <span class="object-meta-count-info">
+                    2 <img class="object-meta-count-icon" src="/img/object-meta-1.png" alt="" />
+                  </span>
+                  <span class="object-meta-count-info">
+                    2 <img class="object-meta-count-icon" src="/img/object-meta-2.png" alt="" />
+                  </span>
+                </p>
+                <p class="object-price">222 759 200 ₽</p>
+                <div class="object-manage cf">
+                  <div class="object-add-love"></div>
+                  <div class="object-more">
+                    <span>Еще 4 объекта <img class="object-more-icon" src="/svg/object-more.svg" alt=""></span>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="search-form_actions">
-              <span>На карте</span>
-              <span>Схема метро</span>
-              <span>Районы</span>
-              <span>Найти <img src="/svg/arrow-small.svg" alt=""></span>
+            <div class="object">
+              <div class="object-images-wrapper">
+                <img class="object-images" src="/img/object.png" alt="" />
+              </div>
+              <h3 class="object-title">Квартира<br /> на Еропкинском</h3>
+              <div class="object-description">
+                <p>Жилой комплекс «Еропинские дали», другое описание если нужно</p>
+              </div>
+              <div class="object-icons">
+                <img src="/img/object-icon-1.png" alt="" />
+                <img src="/img/object-icon-2.png" alt="" />
+                <img src="/img/object-icon-3.png" alt="" />
+                <img src="/img/object-icon-4.png" alt="" />
+                <img src="/img/object-icon-5.png" alt="" />
+              </div>
+              <div class="object-meta">
+                <p class="object-meta-text">
+                  3 комнаты, 128 м²
+                  <span class="object-meta-count-info">
+                    2 <img class="object-meta-count-icon" src="/img/object-meta-1.png" alt="" />
+                  </span>
+                  <span class="object-meta-count-info">
+                    2 <img class="object-meta-count-icon" src="/img/object-meta-2.png" alt="" />
+                  </span>
+                </p>
+                <p class="object-price">222 759 200 ₽</p>
+                <div class="object-manage cf">
+                  <div class="object-add-love"></div>
+                  <div class="object-more">
+                    <span>Еще 4 объекта <img class="object-more-icon" src="/svg/object-more.svg" alt=""></span>
+                  </div>
+                </div>
+              </div>
             </div>
-          </form>
-        </div>
-        <div class="search-btn">
-          <img class="search-btn_icon" src="/svg/search.svg" alt="" />
-          <span class="search-btn_text">Поиск</span>
+            <div class="object">
+              <div class="object-images-wrapper">
+                <img class="object-images" src="/img/object.png" alt="" />
+              </div>
+              <h3 class="object-title">Квартира<br /> на Еропкинском</h3>
+              <div class="object-description">
+                <p>Жилой комплекс «Еропинские дали», другое описание если нужно</p>
+              </div>
+              <div class="object-icons">
+                <img src="/img/object-icon-1.png" alt="" />
+                <img src="/img/object-icon-2.png" alt="" />
+                <img src="/img/object-icon-3.png" alt="" />
+                <img src="/img/object-icon-4.png" alt="" />
+                <img src="/img/object-icon-5.png" alt="" />
+              </div>
+              <div class="object-meta">
+                <p class="object-meta-text">
+                  3 комнаты, 128 м²
+                  <span class="object-meta-count-info">
+                    2 <img class="object-meta-count-icon" src="/img/object-meta-1.png" alt="" />
+                  </span>
+                  <span class="object-meta-count-info">
+                    2 <img class="object-meta-count-icon" src="/img/object-meta-2.png" alt="" />
+                  </span>
+                </p>
+                <p class="object-price">222 759 200 ₽</p>
+                <div class="object-manage cf">
+                  <div class="object-add-love"></div>
+                  <div class="object-more">
+                    <span>Еще 4 объекта <img class="object-more-icon" src="/svg/object-more.svg" alt=""></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="object">
+              <div class="object-images-wrapper">
+                <img class="object-images" src="/img/object.png" alt="" />
+              </div>
+              <h3 class="object-title">Квартира<br /> на Еропкинском</h3>
+              <div class="object-description">
+                <p>Жилой комплекс «Еропинские дали», другое описание если нужно</p>
+              </div>
+              <div class="object-icons">
+                <img src="/img/object-icon-1.png" alt="" />
+                <img src="/img/object-icon-2.png" alt="" />
+                <img src="/img/object-icon-3.png" alt="" />
+                <img src="/img/object-icon-4.png" alt="" />
+                <img src="/img/object-icon-5.png" alt="" />
+              </div>
+              <div class="object-meta">
+                <p class="object-meta-text">
+                  3 комнаты, 128 м²
+                  <span class="object-meta-count-info">
+                    2 <img class="object-meta-count-icon" src="/img/object-meta-1.png" alt="" />
+                  </span>
+                  <span class="object-meta-count-info">
+                    2 <img class="object-meta-count-icon" src="/img/object-meta-2.png" alt="" />
+                  </span>
+                </p>
+                <p class="object-price">222 759 200 ₽</p>
+                <div class="object-manage cf">
+                  <div class="object-add-love"></div>
+                  <div class="object-more">
+                    <span>Еще 4 объекта <img class="object-more-icon" src="/svg/object-more.svg" alt=""></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="object">
+              <div class="object-images-wrapper">
+                <img class="object-images" src="/img/object.png" alt="" />
+              </div>
+              <h3 class="object-title">Квартира<br /> на Еропкинском</h3>
+              <div class="object-description">
+                <p>Жилой комплекс «Еропинские дали», другое описание если нужно</p>
+              </div>
+              <div class="object-icons">
+                <img src="/img/object-icon-1.png" alt="" />
+                <img src="/img/object-icon-2.png" alt="" />
+                <img src="/img/object-icon-3.png" alt="" />
+                <img src="/img/object-icon-4.png" alt="" />
+                <img src="/img/object-icon-5.png" alt="" />
+              </div>
+              <div class="object-meta">
+                <p class="object-meta-text">
+                  3 комнаты, 128 м²
+                  <span class="object-meta-count-info">
+                    2 <img class="object-meta-count-icon" src="/img/object-meta-1.png" alt="" />
+                  </span>
+                  <span class="object-meta-count-info">
+                    2 <img class="object-meta-count-icon" src="/img/object-meta-2.png" alt="" />
+                  </span>
+                </p>
+                <p class="object-price">222 759 200 ₽</p>
+                <div class="object-manage cf">
+                  <div class="object-add-love"></div>
+                  <div class="object-more">
+                    <span>Еще 4 объекта <img class="object-more-icon" src="/svg/object-more.svg" alt=""></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="object">
+              <div class="object-images-wrapper">
+                <img class="object-images" src="/img/object.png" alt="" />
+              </div>
+              <h3 class="object-title">Квартира<br /> на Еропкинском</h3>
+              <div class="object-description">
+                <p>Жилой комплекс «Еропинские дали», другое описание если нужно</p>
+              </div>
+              <div class="object-icons">
+                <img src="/img/object-icon-1.png" alt="" />
+                <img src="/img/object-icon-2.png" alt="" />
+                <img src="/img/object-icon-3.png" alt="" />
+                <img src="/img/object-icon-4.png" alt="" />
+                <img src="/img/object-icon-5.png" alt="" />
+              </div>
+              <div class="object-meta">
+                <p class="object-meta-text">
+                  3 комнаты, 128 м²
+                  <span class="object-meta-count-info">
+                    2 <img class="object-meta-count-icon" src="/img/object-meta-1.png" alt="" />
+                  </span>
+                  <span class="object-meta-count-info">
+                    2 <img class="object-meta-count-icon" src="/img/object-meta-2.png" alt="" />
+                  </span>
+                </p>
+                <p class="object-price">222 759 200 ₽</p>
+                <div class="object-manage cf">
+                  <div class="object-add-love"></div>
+                  <div class="object-more">
+                    <span>Еще 4 объекта <img class="object-more-icon" src="/svg/object-more.svg" alt=""></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="object">
+              <div class="object-images-wrapper">
+                <img class="object-images" src="/img/object.png" alt="" />
+              </div>
+              <h3 class="object-title">Квартира<br /> на Еропкинском</h3>
+              <div class="object-description">
+                <p>Жилой комплекс «Еропинские дали», другое описание если нужно</p>
+              </div>
+              <div class="object-icons">
+                <img src="/img/object-icon-1.png" alt="" />
+                <img src="/img/object-icon-2.png" alt="" />
+                <img src="/img/object-icon-3.png" alt="" />
+                <img src="/img/object-icon-4.png" alt="" />
+                <img src="/img/object-icon-5.png" alt="" />
+              </div>
+              <div class="object-meta">
+                <p class="object-meta-text">
+                  3 комнаты, 128 м²
+                  <span class="object-meta-count-info">
+                    2 <img class="object-meta-count-icon" src="/img/object-meta-1.png" alt="" />
+                  </span>
+                  <span class="object-meta-count-info">
+                    2 <img class="object-meta-count-icon" src="/img/object-meta-2.png" alt="" />
+                  </span>
+                </p>
+                <p class="object-price">222 759 200 ₽</p>
+                <div class="object-manage cf">
+                  <div class="object-add-love"></div>
+                  <div class="object-more">
+                    <span>Еще 4 объекта <img class="object-more-icon" src="/svg/object-more.svg" alt=""></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="object">
+              <div class="object-images-wrapper">
+                <img class="object-images" src="/img/object.png" alt="" />
+              </div>
+              <h3 class="object-title">Квартира<br /> на Еропкинском</h3>
+              <div class="object-description">
+                <p>Жилой комплекс «Еропинские дали», другое описание если нужно</p>
+              </div>
+              <div class="object-icons">
+                <img src="/img/object-icon-1.png" alt="" />
+                <img src="/img/object-icon-2.png" alt="" />
+                <img src="/img/object-icon-3.png" alt="" />
+                <img src="/img/object-icon-4.png" alt="" />
+                <img src="/img/object-icon-5.png" alt="" />
+              </div>
+              <div class="object-meta">
+                <p class="object-meta-text">
+                  3 комнаты, 128 м²
+                  <span class="object-meta-count-info">
+                    2 <img class="object-meta-count-icon" src="/img/object-meta-1.png" alt="" />
+                  </span>
+                  <span class="object-meta-count-info">
+                    2 <img class="object-meta-count-icon" src="/img/object-meta-2.png" alt="" />
+                  </span>
+                </p>
+                <p class="object-price">222 759 200 ₽</p>
+                <div class="object-manage cf">
+                  <div class="object-add-love"></div>
+                  <div class="object-more">
+                    <span>Еще 4 объекта <img class="object-more-icon" src="/svg/object-more.svg" alt=""></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="object">
+              <div class="object-images-wrapper">
+                <img class="object-images" src="/img/object.png" alt="" />
+              </div>
+              <h3 class="object-title">Квартира<br /> на Еропкинском</h3>
+              <div class="object-description">
+                <p>Жилой комплекс «Еропинские дали», другое описание если нужно</p>
+              </div>
+              <div class="object-icons">
+                <img src="/img/object-icon-1.png" alt="" />
+                <img src="/img/object-icon-2.png" alt="" />
+                <img src="/img/object-icon-3.png" alt="" />
+                <img src="/img/object-icon-4.png" alt="" />
+                <img src="/img/object-icon-5.png" alt="" />
+              </div>
+              <div class="object-meta">
+                <p class="object-meta-text">
+                  3 комнаты, 128 м²
+                  <span class="object-meta-count-info">
+                    2 <img class="object-meta-count-icon" src="/img/object-meta-1.png" alt="" />
+                  </span>
+                  <span class="object-meta-count-info">
+                    2 <img class="object-meta-count-icon" src="/img/object-meta-2.png" alt="" />
+                  </span>
+                </p>
+                <p class="object-price">222 759 200 ₽</p>
+                <div class="object-manage cf">
+                  <div class="object-add-love"></div>
+                  <div class="object-more">
+                    <span>Еще 4 объекта <img class="object-more-icon" src="/svg/object-more.svg" alt=""></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="object">
+              <div class="object-images-wrapper">
+                <img class="object-images" src="/img/object.png" alt="" />
+              </div>
+              <h3 class="object-title">Квартира<br /> на Еропкинском</h3>
+              <div class="object-description">
+                <p>Жилой комплекс «Еропинские дали», другое описание если нужно</p>
+              </div>
+              <div class="object-icons">
+                <img src="/img/object-icon-1.png" alt="" />
+                <img src="/img/object-icon-2.png" alt="" />
+                <img src="/img/object-icon-3.png" alt="" />
+                <img src="/img/object-icon-4.png" alt="" />
+                <img src="/img/object-icon-5.png" alt="" />
+              </div>
+              <div class="object-meta">
+                <p class="object-meta-text">
+                  3 комнаты, 128 м²
+                  <span class="object-meta-count-info">
+                    2 <img class="object-meta-count-icon" src="/img/object-meta-1.png" alt="" />
+                  </span>
+                  <span class="object-meta-count-info">
+                    2 <img class="object-meta-count-icon" src="/img/object-meta-2.png" alt="" />
+                  </span>
+                </p>
+                <p class="object-price">222 759 200 ₽</p>
+                <div class="object-manage cf">
+                  <div class="object-add-love"></div>
+                  <div class="object-more">
+                    <span>Еще 4 объекта <img class="object-more-icon" src="/svg/object-more.svg" alt=""></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="object">
+              <div class="object-images-wrapper">
+                <img class="object-images" src="/img/object.png" alt="" />
+              </div>
+              <h3 class="object-title">Квартира<br /> на Еропкинском</h3>
+              <div class="object-description">
+                <p>Жилой комплекс «Еропинские дали», другое описание если нужно</p>
+              </div>
+              <div class="object-icons">
+                <img src="/img/object-icon-1.png" alt="" />
+                <img src="/img/object-icon-2.png" alt="" />
+                <img src="/img/object-icon-3.png" alt="" />
+                <img src="/img/object-icon-4.png" alt="" />
+                <img src="/img/object-icon-5.png" alt="" />
+              </div>
+              <div class="object-meta">
+                <p class="object-meta-text">
+                  3 комнаты, 128 м²
+                  <span class="object-meta-count-info">
+                    2 <img class="object-meta-count-icon" src="/img/object-meta-1.png" alt="" />
+                  </span>
+                  <span class="object-meta-count-info">
+                    2 <img class="object-meta-count-icon" src="/img/object-meta-2.png" alt="" />
+                  </span>
+                </p>
+                <p class="object-price">222 759 200 ₽</p>
+                <div class="object-manage cf">
+                  <div class="object-add-love"></div>
+                  <div class="object-more">
+                    <span>Еще 4 объекта <img class="object-more-icon" src="/svg/object-more.svg" alt=""></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="object">
+              <div class="object-images-wrapper">
+                <img class="object-images" src="/img/object.png" alt="" />
+              </div>
+              <h3 class="object-title">Квартира<br /> на Еропкинском</h3>
+              <div class="object-description">
+                <p>Жилой комплекс «Еропинские дали», другое описание если нужно</p>
+              </div>
+              <div class="object-icons">
+                <img src="/img/object-icon-1.png" alt="" />
+                <img src="/img/object-icon-2.png" alt="" />
+                <img src="/img/object-icon-3.png" alt="" />
+                <img src="/img/object-icon-4.png" alt="" />
+                <img src="/img/object-icon-5.png" alt="" />
+              </div>
+              <div class="object-meta">
+                <p class="object-meta-text">
+                  3 комнаты, 128 м²
+                  <span class="object-meta-count-info">
+                    2 <img class="object-meta-count-icon" src="/img/object-meta-1.png" alt="" />
+                  </span>
+                  <span class="object-meta-count-info">
+                    2 <img class="object-meta-count-icon" src="/img/object-meta-2.png" alt="" />
+                  </span>
+                </p>
+                <p class="object-price">222 759 200 ₽</p>
+                <div class="object-manage cf">
+                  <div class="object-add-love"></div>
+                  <div class="object-more">
+                    <span>Еще 4 объекта <img class="object-more-icon" src="/svg/object-more.svg" alt=""></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
     </div>
+
   </div>
-</div>
 
-<div class="callback">
-  <img src="/svg/callback.svg" alt="">
-</div>
-
+<script type='text/javascript' src='/js/jquery-2.2.4.min.js'></script>
+<script type='text/javascript' src='/js/main.js'></script>
 </body>
 </html>

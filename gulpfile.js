@@ -34,7 +34,7 @@ gulp.task('pcss', function(cb) {
       browsers: ['last 1 version']
     })
   ];
-  return gulp.src(['src/style/normilize.pcss', 'src/style/fonts.pcss', 'src/style/**/*.pcss'])
+  return gulp.src(['src/style/normilize.pcss', 'src/style/fonts.pcss', 'src/style/*.pcss'])
     .pipe(concat('bundle.css'))
     .pipe(postcss(processors))
     .pipe(gulp.dest('src/css'))
