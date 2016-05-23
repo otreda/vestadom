@@ -52,7 +52,7 @@ gulp.task('clean', ['pcss'], function() {
 });
 
 gulp.task('copy', ['clean'], function() {
-  return gulp.src(['src/css/*', 'src/js/*', 'src/img/*', 'src/svg/*', 'src/fonts/*', 'src/index.html'])
+  return gulp.src(['src/css/*', 'src/js/*', 'src/img/*', 'src/svg/*', 'src/fonts/*', 'src/*.html'])
     .pipe(gulpCopy('dist', {
       prefix: 1
     }));
